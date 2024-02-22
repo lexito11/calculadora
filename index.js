@@ -27,7 +27,8 @@ function calculadora() {
   }
   
   function restar(numero1, numero2){
-    let resta = numero1 - numero
+    let resta = numero1 - numero2
+    console.log(resta);
   }
   let num1 = parseFloat(prompt("Ingrese el primer numero"));
   let num2 = parseFloat(prompt("Ingrese el segundo nu mero"));
