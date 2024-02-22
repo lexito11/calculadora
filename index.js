@@ -49,6 +49,14 @@ restar(numero1, numero2);
   let numer2 = parseFloat(prompt("Ingrese el segundo numero"));
   multiplicar(numer1, numer2);
 
+  function dividir(num1, num2){
+    let divi = num1 / numer2;
+    console.log(divi);
+  }
+  let nume1 = parseFloat(prompt("Ingrese el primer nuemro"));
+  let nume2 = parseFloat(prompt("Ingrese el segundo numero"));
+  dividir(nume1, nume2);
+
   // Función principal del programa
   function calculadora() {
     var opcion = prompt(
