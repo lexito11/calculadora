@@ -18,6 +18,13 @@ function calculadora() {
         num2
     );
   }
+  function restar(num1, num2){
+    let resta = num1 - num2;
+    console.log(resta);
+}
+let numero1 = parseFloat(prompt("Ingrese el primer número"));
+let numero2 = parseFloat(prompt("Ingrese el segundo numero"));
+restar(numero1, numero2);
   
   // Llamar a la función principal
   calculadora();
