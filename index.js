@@ -22,9 +22,16 @@ function calculadora() {
   // Llamar a la función principal
   calculadora();
 
-  function sumar(num1, num2) {
+  function restar(num1, num2) {
     return num1 + num2;
   }
+  
+  function restar(numero1, numero2){
+    let resta = numero1 - numero
+  }
+  let num1 = parseFloat(prompt("Ingrese el primer numero"));
+  let num2 = parseFloat(prompt("Ingrese el segundo nu mero"));
+  restar(num1, num2);
   
   // Función principal del programa
   function calculadora() {
