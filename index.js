@@ -22,6 +22,7 @@ function calculadora() {
   // Llamar a la función principal
   calculadora();
 
+  //función para sumar dos numeros
   function sumar(num1, num2) {
     return num1 + num2;
   }
