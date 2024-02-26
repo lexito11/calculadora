@@ -25,11 +25,9 @@ function calculadora() {
 let numero1 = parseFloat(prompt("Ingrese el primer número"));
 let numero2 = parseFloat(prompt("Ingrese el segundo numero"));
 restar(numero1, numero2);
-  
-  // Llamar a la función principal
-  calculadora();
 
-  function restar(num1, num2) {
+  //función para sumar dos numeros
+  function sumar(num1, num2){
     return num1 + num2;
   }
   
