@@ -48,7 +48,7 @@ restar(numero1, numero2);
   multiplicar(numer1, numer2);
 
   function dividir(num1, num2){
-    let divi = num1 / numer2;
+    let divi = num1 / num2;
     console.log(divi);
   }
   let nume1 = parseFloat(prompt("Ingrese el primer nuemro"));
