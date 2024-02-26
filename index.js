@@ -56,6 +56,14 @@ restar(numero1, numero2);
   let nume1 = parseFloat(prompt("Ingrese el primer nuemro"));
   let nume2 = parseFloat(prompt("Ingrese el segundo numero"));
   dividir(nume1, nume2);
+<
+  function exponente(num1, num2){
+    expon = num1 ** num2;
+    console.log("el resultao es " + expon);
+  }
+  let elNum1 = parseFloat(prompt("Ingrese el primer numero / la base"));
+  let elNum2 = parseFloat(prompt("Ingrese el segundo numero / el exponente"));
+  exponente(elNum1, elNum2);<
 
   // Función principal del programa
   function calculadora() {
